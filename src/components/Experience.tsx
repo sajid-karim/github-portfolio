@@ -8,41 +8,28 @@ import { JobImages } from "@/components/JobImages";
 
 const jobs = [
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Software Engineer I", // TODO: Replace with actual role
+        company: "Careem Technologies Pakistan", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2020 - Present",
+        duration: "1/1/2024 - 1/6/2024",
         description:
-            "Lead developer for multiple high-impact projects, mentoring junior developers, and implementing best practices.",
-        link: "https://techinnovators.com",
+            "Contributed to GPT-4-powered Arabic localization microservice, secure REST APIs with JWT, automated tasks, conducted code reviews, and implemented robust testing for reliability",
+        link: "https://careem.com",
         images: [],
     },
     {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
+        role: "Software Engineer", // TODO: Replace with actual role
+        company: "Breu Inc", // TODO: Replace with actual company name
         logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2018 - 2020",
+        duration: "1-10-2022 - 13-5-2023",
         description:
-            "Developed and maintained various client projects, focusing on responsive design and performance optimization.",
-        link: "https://websolutions.com",
+            "Developed scalable microservices with NestJS, Express, and TypeScript; built responsive UIs using React and Tailwind CSS; deployed on GCP with Kubernetes; implemented CI/CD pipelines; and optimized performance for supply chain ecosystems.",
+        link: "https://breu.io",
         images: [
             "/devvault.png",
             "/devvault.png",
         ],
-    },
-    {
-        role: "Senior Full-Stack Developer", // TODO: Replace with actual role
-        company: "Tech Innovators Inc.", // TODO: Replace with actual company name
-        logo: "/company.svg", // TODO: Replace with actual logo
-        duration: "2016 - 2018",
-        description:
-            "Assisted in the development of web applications, gained experience in agile methodologies and version control.",
-        link: "https://startupventures.com",
-        images: [
-            "/devvault.png",
-            "/devvault.png",
-        ],
-    },
+    }
 ]
 
 export const Experience = () => {

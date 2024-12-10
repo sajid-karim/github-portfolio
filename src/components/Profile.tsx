@@ -12,17 +12,17 @@ import { Button } from "@/components/ui/button";
 const socials = [
     {
         name: "Github",
-        link: "https://github.com/achris-alonzo30",
+        link: "https://github.com/sajid-karim",
         icon: <FaGithub className="size-4" />
     },
     {
         name: "LinkedIn",
-        link: "https://linkedin.com/in/lonzochris",
+        link: "https://linkedin.com/in/sajidkarim01",
         icon: <FaLinkedin className="size-4" />
     },
     {
         name: "X (Twitter)",
-        link: "https://x.com/lonz_chris",
+        link: "https://x.com/sajid-karim",
         icon: <FaXTwitter className="size-4" />
     }
     // TODO: Add more socials here
@@ -43,14 +43,15 @@ export const Profile = () => {
                             className="rounded-full size-12 md:w-full h-auto object-cover border-2"
                         />
                         <div className="flex flex-col items-start justify-center">
-                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Chris Lonzo</h1>
+                            <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Sajid Karim</h1>
                             <p className="text-sm md:text-base text-muted-foreground">
-                                Solopreneur Developer
+                                Backend Developer
                             </p>
                         </div>
                     </div>
                     <p className="mt-2 text-start text-sm text-muted-foreground">
-                        I am a solopreneur developer with a passion for building products that solve real-world problems.
+                        {/* Write 1-2 sentences about yourself */}
+                        Skilled software engineer specializing in backend development and microservices architecture.
                     </p>
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}
